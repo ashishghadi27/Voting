@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardElevation="5dp">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/detimg"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="275dp"
+                        android:layout_height="125dp"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat_alternates"
+                            android:text="Candidate Name"
+                            android:textColor="#000"
+                            android:id="@+id/candinamedet"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Party Name"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:id="@+id/candipartydet"
+                            android:fontFamily="@font/montserrat_alternates"
+
+                            />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"
+                            android:textSize="18sp"
+                            android:textColor="#0000"
+                            android:id="@+id/candiid"
+                            android:fontFamily="@font/montserrat_alternates"
+                            android:visibility="gone"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="125dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/elec_symboldet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:src="@drawable/mtwoi"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#000"
+                            android:layout_marginEnd="5dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginBottom="5dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Candidate Details:"
+                    android:fontFamily="@font/montserrat_alternates"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Candidate Details:"
+                    android:fontFamily="@font/montserrat_alternates"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/detailscandi"
+                    android:textColor="#000" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundedbutton"
+                    android:textStyle="bold"
+                    android:text="Vote"
+                    android:id="@+id/vote"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/montserrat_alternates"
+                    android:layout_marginTop="20dp"/>
+
+
+                </LinearLayout>
+
+
+
+            
+
+
+        </android.support.v7.widget.CardView>
+        
+    </LinearLayout>
+
+    </ScrollView>
+    
+
+</LinearLayout>

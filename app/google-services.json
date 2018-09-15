@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "676313811760",
+    "firebase_url": "https://voting-b48ed.firebaseio.com",
+    "project_id": "voting-b48ed",
+    "storage_bucket": "voting-b48ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676313811760:android:3238198cd744563b",
+        "android_client_info": {
+          "package_name": "com.rootdevs.ashish.voting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676313811760-nphdo5uid96t92tpii4n104hb9f29e7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6TQZZBdnZy-ZtaM_5_iQTI_VCnTZ9aiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Voting</string>
+    <string name="facebook_app_id">995481077304931</string>
+    <string name="fb_login_protocol_scheme">fb995481077304931</string>
+    <string name="facebook_app_idf">995481077304931</string>
+    <string name="fb_login_protocol_schemef">fb995481077304931</string>
+
+</resources>

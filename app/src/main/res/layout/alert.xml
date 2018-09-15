@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#37474f"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete Your Profile"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Phone"
+        android:singleLine="true"
+        android:textColor="#ffd"
+        android:textColorHint="#fee"
+        />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Address"
+        android:textColor="#ffd"
+        android:textColorHint="#fee"
+        />
+
+    <EditText
+        android:id="@+id/constituency"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Constituency"
+        android:singleLine="true"
+        android:textColor="#ffd"
+        android:textColorHint="#fee"
+        />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Gender"
+        android:singleLine="true"
+        android:textColor="#ffd"
+        android:textColorHint="#fee"
+        />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingRight="2dp"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp"
+        android:paddingLeft="2dp"
+        android:text="Proceed"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</LinearLayout>

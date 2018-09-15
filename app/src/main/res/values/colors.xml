@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mycolor">
+                <corners android:radius="0dip" />
+                <stroke android:width="0dip" android:color="#fff" />
+                <gradient android:angle="0" android:startColor="#311b92" android:centerColor="#6200ea" android:endColor="#7c4dff"  />
+    </color>
+</resources>
